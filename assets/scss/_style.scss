@@ -1,0 +1,218 @@
+// -----------------------------------------------------------------Navbar-------------------------------------------------------------
+.nb {
+    background: $white !important;
+    padding: 20px 0;
+    width: 100vw;
+    .btn,
+    .form-control {
+        height: 40px !important;
+    }
+    .nav-item {
+        margin-right: 30px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+.main-nav {
+    position: fixed;
+    width: calc(100% - 319px);
+    background-color: $white;
+    z-index: 110;
+}
+.users-avatar {
+    display: flex;
+    .user-item {
+        @include round(30px);
+    }
+    .user-item:not(:first-child) {
+        margin-left: -10px;
+    }
+}
+.users-count {
+    @include round(30px);
+    font-size: 12px !important;
+    font-weight: 600;
+    color: $white;
+}
+.drpdown {
+    &::after {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23059762' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e") !important;
+    }
+}
+hr {
+    width: 100%;
+    height: 1px !important;
+    opacity: 1 !important;
+    background: $border-color !important;
+    border: 0 !important;
+}
+
+nav {
+    border-bottom: 1px solid $border-color;
+    .search-icon {
+        position: absolute;
+        top: 8px;
+        left: 20px;
+    }
+    .form-control {
+        height: 40px !important;
+        border-radius: 40px !important;
+    }
+    .select2-container--default .select2-selection--single {
+        height: 40px !important;
+        border-radius: 40px !important;
+    }
+    .select2-container {
+        margin-bottom: 0 !important;
+    }
+    .unread {
+        @include round(10px);
+        background-color: $color8;
+        border: 2px solid $white;
+        position: absolute;
+        right: 0px;
+        top: 3px;
+    }
+    .profile-avatar {
+        border: 3px solid $color3;
+    }
+}
+.nav-tabs {
+    .nav-item {
+        button.active {
+            border-bottom: 4px solid $primary !important;
+            border-radius: 0 !important;
+            border: 0;
+        }
+        button {
+            border-bottom: 4px solid $tertiary !important;
+            border-radius: 0 !important;
+            border: 0;
+            color: $tab-color;
+        }
+    }
+}
+.list-toggle {
+    background-color: $color3;
+    border-radius: $b-rds-xs;
+    label {
+        width: 35px !important;
+        height: 35px !important;
+        padding: 3px !important;
+        background-color: $color3;
+        border-color: $color3;
+        font-size: 18px;
+        &:hover,
+        &:active,
+        &:focus {
+            border-color: $color3 !important;
+            color: $primary !important;
+        }
+    }
+    .btn-check:active + .btn-outline-primary,
+    .btn-check:checked + .btn-outline-primary,
+    .btn-outline-primary.active,
+    .btn-outline-primary.dropdown-toggle.show,
+    .btn-outline-primary:active {
+        background-color: $white !important;
+        border-color: $color3;
+        border-radius: $b-rds-xs !important;
+        color: $primary !important;
+    }
+}
+.events-card {
+    border: 1px solid $border-color;
+    border-radius: $b-rds-xs;
+    .user-item {
+        border: 1px solid $white;
+    }
+    h5 {
+        font-size: 18px !important;
+    }
+    p {
+        font-size: 14px !important;
+    }
+}
+.upcoming-events {
+    a {
+        &:hover,
+        &:active,
+        &:focus {
+            .events-card {
+                background-color: $tertiary !important;
+            }
+        }
+    }
+}
+.todays-schedule {
+    .dot {
+        @include round(15px);
+    }
+    .btn {
+        min-width: 165px;
+    }
+    .contant-wrapper {
+        border-left: 1px solid $border-color;
+    }
+    .today-wrapper {
+        width: calc(100% + 30px);
+        height: 95vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding-right: 30px;
+    }
+}
+.border-white {
+    border: 1px solid $white !important;
+}
+.meeting-tile {
+    background-color: $tertiary;
+    border: 1px solid rgba($color: $primary, $alpha: 0.5);
+    border-radius: $b-rds;
+    width: 94%;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    z-index: 2;
+    .inner-wrap {
+        position: relative;
+        .left-side {
+            max-width: 70%;
+            h6,
+            p {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+        }
+    }
+    .date-n-time {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+    &.disabled {
+        pointer-events: none;
+        filter: grayscale(100%);
+        a {
+            opacity: 0.5;
+        }
+    }
+}
+.events-pane {
+    position: relative;
+}
+.mtile-2 {
+    top: 5px !important;
+}
+body,
+html {
+    overflow-x: hidden;
+}
+.select2-selection__rendered {
+    background-image: url("../images/svg/filter.svg");
+    background-repeat: no-repeat;
+    background-position: left 5px center;
+    padding-left: 35px !important;
+}

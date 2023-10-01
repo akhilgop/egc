@@ -1,0 +1,176 @@
+// ----------------------------------------------------Text-----------------------------------------------------//
+h1 {
+    font-size: $h1;
+}
+
+h2 {
+    font-size: $h2;
+}
+
+h3 {
+    font-size: $h3;
+}
+
+h4 {
+    font-size: $h4;
+}
+
+h5 {
+    font-size: $h5;
+}
+
+h6 {
+    font-size: $h6;
+}
+
+p {
+    font-size: $p;
+    line-height: $line-height;
+    color: $body-color;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    color: $black;
+}
+a {
+    font-size: $p;
+    text-decoration: none;
+    @include transition;
+    color: $primary;
+    &:hover,
+    &:active,
+    &:focus {
+        box-shadow: none;
+        outline: 0;
+        text-decoration: none;
+        color: darken($color: $primary, $amount: 10%);
+    }
+}
+.text-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.text-justify {
+    text-align: justify !important;
+}
+.break-all {
+    word-wrap: break-all;
+}
+.break-word {
+    word-wrap: break-word;
+}
+// ----------------------------------------------------------------Font Sizes---------------------------------------------------------------//
+.fw-300 {
+    font-weight: 300 !important;
+}
+.fw-400 {
+    font-weight: 400 !important;
+}
+.fw-500 {
+    font-weight: 500 !important;
+}
+.fw-600 {
+    font-weight: 600 !important;
+}
+@media screen and (max-width: 767px) {
+    .text-mob-center {
+        text-align: center !important;
+    }
+    .text-mob-start {
+        text-align: left !important;
+    }
+    .text-mob-end {
+        text-align: right !important;
+    }
+    .text-mob-justify {
+        text-align: justify !important;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .text-md-center {
+        text-align: center !important;
+    }
+    .text-md-start {
+        text-align: left !important;
+    }
+    .text-md-end {
+        text-align: right !important;
+    }
+    .text-md-justify {
+        text-align: justify !important;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .text-lg-center {
+        text-align: center !important;
+    }
+    .text-lg-start {
+        text-align: left !important;
+    }
+    .text-lg-end {
+        text-align: right !important;
+    }
+    .text-lg-justify {
+        text-align: justify !important;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .fw-xl-300 {
+        font-weight: 300 !important;
+    }
+    .fw-xl-400 {
+        font-weight: 400 !important;
+    }
+    .fw-xl-500 {
+        font-weight: 500 !important;
+    }
+    .fw-xl-600 {
+        font-weight: 600 !important;
+    }
+    .text-xl-center {
+        text-align: center !important;
+    }
+    .text-xl-start {
+        text-align: left !important;
+    }
+    .text-xl-end {
+        text-align: right !important;
+    }
+    .text-xl-justify {
+        text-align: justify !important;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .fw-xxl-300 {
+        font-weight: 300 !important;
+    }
+    .fw-xxl-400 {
+        font-weight: 400 !important;
+    }
+    .fw-xxl-500 {
+        font-weight: 500 !important;
+    }
+    .fw-xxl-600 {
+        font-weight: 600 !important;
+    }
+}
+@media screen and (min-width: 1700px) {
+    .fw-xxxl-300 {
+        font-weight: 300 !important;
+    }
+    .fw-xxxl-400 {
+        font-weight: 400 !important;
+    }
+    .fw-xxxl-500 {
+        font-weight: 500 !important;
+    }
+    .fw-xxxl-600 {
+        font-weight: 600 !important;
+    }
+}

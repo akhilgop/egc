@@ -1,0 +1,63 @@
+// General
+@import "mixins";
+@import "responsive";
+@import "variables";
+@import "select2";
+@import "style";
+@import "alignment";
+@import "bg-image";
+@import "common-classes";
+@import "table";
+@import "gradient";
+@import "custom-colors";
+@import "components/modal";
+@import "components/footer";
+
+// Components
+@import "components/button";
+@import "components/colors";
+@import "components/margin";
+@import "components/navbar";
+@import "components/navs";
+@import "components/other";
+@import "components/padding";
+@import "components/text";
+@import "components/size";
+@import "components/lists";
+@import "components/font-sizes";
+@import "components/form";
+@import "components/sidebar";
+
+// Custom Components
+@import "custom-components/custom";
+// ----------------------------------------------------Common Classes-----------------------------------------------------//
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $primary-font;
+    color: $body-color;
+    overflow-x: hidden;
+}
+// ----------------------------------------------------Custom Scrollbar-----------------------------------------------------//
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: $border-color;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: $white;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: $border-color;
+    border-radius: 20px;
+    // border: 3px solid $border-color;
+}

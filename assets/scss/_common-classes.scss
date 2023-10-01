@@ -1,0 +1,471 @@
+// -----------------------------------------------------------------------Navbar---------------------------------------------------------------//
+.navbar {
+    .btn {
+        height: 45px;
+    }
+}
+
+.border-bottom-muted-white {
+    border-bottom: 1px solid $gray3;
+}
+// ----------------------------------------------------------------Image Classess---------------------------------------------------------------//
+.img-container {
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+.bg-image {
+    background-position: center;
+    @include bg-cover-nrp;
+}
+img {
+    max-width: 100%;
+}
+// ----------------------------------------------------------------Pseudo Elements---------------------------------------------------------------//
+:hover {
+    @include transition;
+}
+// ----------------------------------------------------------------Other Classess---------------------------------------------------------------//
+.box-shadow {
+    box-shadow: $box-shadow !important;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+// ----------------------------------------------------------------Arrow Rotate on click--------------------------------------------------------//
+.select2-selection[aria-expanded="true"] {
+    i {
+        transform: rotate(180deg);
+    }
+}
+.btn.dropdown-toggle[aria-expanded="true"] {
+    &::after {
+        transform: rotate(180deg);
+    }
+}
+.dropup {
+    .btn[aria-expanded="true"] {
+        &::after {
+            transform: rotate(0deg) !important;
+        }
+    }
+}
+.nav-item .nav-link.dropdown-toggle[aria-expanded="true"] {
+    &::after {
+        transform: rotate(180deg);
+    }
+}
+// ----------------------------------------------------------------Other Classess---------------------------------------------------------------//
+.box-shadow {
+    box-shadow: $box-shadow !important;
+}
+.border-radius {
+    border-radius: $b-rds !important;
+}
+.border-radius-xxs {
+    border-radius: $b-rds-xxs !important;
+}
+.border-radius-xs {
+    border-radius: $b-rds-xs !important;
+}
+.border-radius-md {
+    border-radius: $b-rds-md !important;
+}
+.border-radius-lg {
+    border-radius: $b-rds-lg !important;
+}
+.border-radius-xl {
+    border-radius: $b-rds-xl !important;
+}
+.border-radius-xxl {
+    border-radius: $b-rds-xxl !important;
+}
+.border-radius-xxxl {
+    border-radius: $b-rds-xxxl !important;
+}
+.border-radius-0 {
+    border-radius: 0 !important;
+}
+.border-radius-left-0 {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.border-radius-right-0 {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+.border-radius-top-0 {
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+.border-radius-bottom-0 {
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+// ----------------------------------------------------------------Square---------------------------------------------------------------//
+.square-default {
+    @include square($height-default);
+}
+.square-sm {
+    @include square($height-sm);
+}
+.square-xs {
+    @include square($height-xs);
+}
+.square-xxs {
+    @include square($height-xxs);
+}
+
+.square-lg {
+    @include square($height-lg);
+}
+.square-xl {
+    @include square($height-xl);
+}
+.square-xxl {
+    @include square($height-xxl);
+}
+.square-xxxl {
+    @include square($height-xxxl);
+}
+.square-img {
+    overflow: hidden;
+    img {
+        height: 100%;
+        max-height: 100%;
+    }
+}
+// ----------------------------------------------------------------Circles---------------------------------------------------------------//
+.circle-default {
+    @include round($height-default);
+}
+.circle-sm {
+    @include round($height-sm);
+}
+.circle-xs {
+    @include round($height-xs);
+}
+.circle-xxs {
+    @include round($height-xxs);
+}
+.circle-lg {
+    @include round($height-lg);
+}
+.circle-xl {
+    @include round($height-xl);
+}
+.circle-xxl {
+    @include round($height-xxl);
+}
+.circle-xxxl {
+    @include round($height-xxxl);
+}
+.circle-img {
+    overflow: hidden;
+    img {
+        height: 100%;
+        max-height: 100%;
+    }
+}
+
+// ----------------------------------------------------------------Height---------------------------------------------------------------//
+.height-xxs {
+    height: $height-xxs !important;
+}
+.height-xs {
+    height: $height-xs !important;
+}
+.height-default {
+    height: $height-default !important;
+}
+.height-lg {
+    height: $height-lg !important;
+}
+.height-xl {
+    height: $height-xl !important;
+}
+.height-xxl {
+    height: $height-xxl !important;
+}
+.height-xxxl {
+    height: $height-xxxl !important;
+}
+// ----------------------------------------------------------------Equal Width & Height------------------------------------------------//
+.equal-wh-xs {
+    width: $height-xs !important;
+    height: $height-xs !important;
+}
+.equal-wh-sm {
+    width: $height-sm !important;
+    height: $height-sm !important;
+}
+.equal-wh-default {
+    width: $height-default !important;
+    height: $height-default !important;
+}
+.equal-wh-default {
+    width: $height-default !important;
+    height: $height-default !important;
+}
+.equal-wh-lg {
+    width: $height-lg !important;
+    height: $height-lg !important;
+}
+.equal-wh-xl {
+    width: $height-xl !important;
+    height: $height-xl !important;
+}
+.equal-wh-xxl {
+    width: $height-xxl !important;
+    height: $height-xxl !important;
+}
+.equal-wh-xxxl {
+    width: $height-xxxl !important;
+    height: $height-xxxl !important;
+}
+// ----------------------------------------------------------------Media---------------------------------------------------------------//
+.media {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.media span,
+.media video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+}
+.media[class*="-background"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.media[class*="-background"] > * {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.media[class*="-video"] span {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1);
+}
+.media[class*="-video"]::after {
+    transform: scale(1.1);
+    transition: all 0.2s;
+    position: absolute;
+    font-family: bootstrap-icons;
+    content: "\f4f4";
+    top: 50%;
+    left: 50%;
+    width: 6.25rem;
+    height: 6.25rem;
+    margin-top: -3.125rem;
+    margin-left: -3.125rem;
+    line-height: 6.25rem;
+    border-radius: 6.25rem;
+    background-color: #000;
+    color: #fff;
+    opacity: 1;
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.media[class*="-video"]:hover::after {
+    transform: scale(1);
+}
+.media[class*="-video"]:hover span {
+    transform: scale(1.05);
+}
+.media[class*="-image"] span {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1);
+}
+.media[class*="-image"]:hover span {
+    transform: scale(1.05);
+}
+// ----------------------------------------------------------------Opacity--------------------------------------------------------------//
+.opacity-1 {
+    opacity: 1;
+}
+.opacity-0 {
+    opacity: 0;
+}
+.opacity-0-1 {
+    opacity: 0.1;
+}
+.opacity-0-2 {
+    opacity: 0.2;
+}
+.opacity-0-3 {
+    opacity: 0.3;
+}
+.opacity-0-4 {
+    opacity: 0.4;
+}
+.opacity-0-5 {
+    opacity: 0.5;
+}
+.opacity-0-6 {
+    opacity: 0.6;
+}
+.opacity-0-7 {
+    opacity: 0.7;
+}
+.opacity-0-8 {
+    opacity: 0.8;
+}
+.opacity-0-9 {
+    opacity: 0.9;
+}
+// -------------------------------------------------------------Media Queries----------------------------------------------------------//
+@media screen and (max-width: 767px) {
+    .height-mob-xxs {
+        height: $height-xxs !important;
+    }
+    .height-mob-xs {
+        height: $height-xs !important;
+    }
+    .height-mob-default {
+        height: $height-default !important;
+    }
+    .height-mob-lg {
+        height: $height-lg !important;
+    }
+    .height-mob-xl {
+        height: $height-xl !important;
+    }
+    .height-mob-xxl {
+        height: $height-xxl !important;
+    }
+    .height-mob-xxxl {
+        height: $height-xxxl !important;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .height-md-xxs {
+        height: $height-xxs !important;
+    }
+    .height-md-xs {
+        height: $height-xs !important;
+    }
+    .height-md-default {
+        height: $height-default !important;
+    }
+    .height-md-lg {
+        height: $height-lg !important;
+    }
+    .height-md-xl {
+        height: $height-xl !important;
+    }
+    .height-md-xxl {
+        height: $height-xxl !important;
+    }
+    .height-md-xxxl {
+        height: $height-xxxl !important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .height-lg-xxs {
+        height: $height-xxs !important;
+    }
+    .height-lg-xs {
+        height: $height-xs !important;
+    }
+    .height-lg-default {
+        height: $height-default !important;
+    }
+    .height-lg-lg {
+        height: $height-lg !important;
+    }
+    .height-lg-xl {
+        height: $height-xl !important;
+    }
+    .height-lg-xxl {
+        height: $height-xxl !important;
+    }
+    .height-lg-xxxl {
+        height: $height-xxxl !important;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+    .height-xl-xxs {
+        height: $height-xxs !important;
+    }
+    .height-xl-xs {
+        height: $height-xs !important;
+    }
+    .height-xl-default {
+        height: $height-default !important;
+    }
+    .height-xl-lg {
+        height: $height-lg !important;
+    }
+    .height-xl-xl {
+        height: $height-xl !important;
+    }
+    .height-xl-xxl {
+        height: $height-xxl !important;
+    }
+    .height-xl-xxxl {
+        height: $height-xxxl !important;
+    }
+}
+
+@media screen and (min-width: 1701px) and (max-width: 1920px) {
+    .height-xxl-xxs {
+        height: $height-xxs !important;
+    }
+    .height-xxl-xs {
+        height: $height-xs !important;
+    }
+    .height-xxl-default {
+        height: $height-default !important;
+    }
+    .height-xxl-lg {
+        height: $height-lg !important;
+    }
+    .height-xxl-xl {
+        height: $height-xl !important;
+    }
+    .height-xxl-xxl {
+        height: $height-xxl !important;
+    }
+    .height-xxl-xxxl {
+        height: $height-xxxl !important;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    .height-xxxl-xxs {
+        height: $height-xxs !important;
+    }
+    .height-xxxl-xs {
+        height: $height-xs !important;
+    }
+    .height-xxxl-default {
+        height: $height-default !important;
+    }
+    .height-xxxl-lg {
+        height: $height-lg !important;
+    }
+    .height-xxxl-xl {
+        height: $height-xl !important;
+    }
+    .height-xxxl-xxl {
+        height: $height-xxl !important;
+    }
+    .height-xxxl-xxxl {
+        height: $height-xxxl !important;
+    }
+}

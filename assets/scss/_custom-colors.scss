@@ -1,0 +1,640 @@
+// ----------------------------------------------------Button-----------------------------------------------------//
+.btn-color-1 {
+    @include buttn($color1, $white, $color1);
+}
+.btn-color-2 {
+    @include buttn($color2, $white, $color2);
+}
+.btn-color-3 {
+    @include buttn($color3, $white, $color3);
+}
+.btn-color-4 {
+    @include buttn($color4, $white, $color4);
+}
+.btn-color-5 {
+    @include buttn($color5, $white, $color5);
+}
+.btn-color-6 {
+    @include buttn($color6, $white, $color6);
+}
+.btn-color-7 {
+    @include buttn($color7, $white, $color7);
+}
+.btn-color-8 {
+    @include buttn($color8, $white, $color8);
+}
+.btn-color-9 {
+    @include buttn($color9, $white, $color9);
+}
+.btn-color-10 {
+    @include buttn($color10, $white, $color10);
+}
+.btn-outline-color-1 {
+    @include buttn-outline($trans, $color1, $color1);
+}
+.btn-outline-color-2 {
+    @include buttn-outline($trans, $color2, $color2);
+}
+.btn-outline-color-3 {
+    @include buttn-outline($trans, $color3, $color3);
+}
+.btn-outline-color-4 {
+    @include buttn-outline($trans, $color4, $color4);
+}
+.btn-outline-color-5 {
+    @include buttn-outline($trans, $color5, $color5);
+}
+.btn-outline-color-6 {
+    @include buttn-outline($trans, $color6, $color6);
+}
+.btn-outline-color-7 {
+    @include buttn-outline($trans, $color7, $color7);
+}
+.btn-outline-color-8 {
+    @include buttn-outline($trans, $color8, $color8);
+}
+.btn-outline-color-9 {
+    @include buttn-outline($trans, $color9, $color9);
+}
+.btn-outline-color-10 {
+    @include buttn-outline($trans, $color10, $color10);
+}
+// ----------------------------------------------------Text-----------------------------------------------------//
+.text-color-1 {
+    color: $color1 !important;
+}
+.text-color-2 {
+    color: $color2 !important;
+}
+.text-color-3 {
+    color: $color3 !important;
+}
+.text-color-4 {
+    color: $color4 !important;
+}
+.text-color-5 {
+    color: $color5 !important;
+}
+.text-color-6 {
+    color: $color6 !important;
+}
+.text-color-7 {
+    color: $color7 !important;
+}
+.text-color-8 {
+    color: $color8 !important;
+}
+.text-color-9 {
+    color: $color9 !important;
+}
+.text-color-10 {
+    color: $color10 !important;
+}
+// ----------------------------------------------------Background----------------------------------------------//
+.bg-color-1 {
+    background-color: $color1 !important;
+}
+.bg-color-2 {
+    background-color: $color2 !important;
+}
+.bg-color-3 {
+    background-color: $color3 !important;
+}
+.bg-color-4 {
+    background-color: $color4 !important;
+}
+.bg-color-5 {
+    background-color: $color5 !important;
+}
+.bg-color-6 {
+    background-color: $color6 !important;
+}
+.bg-color-7 {
+    background-color: $color7 !important;
+}
+.bg-color-8 {
+    background-color: $color8 !important;
+}
+.bg-color-9 {
+    background-color: $color9 !important;
+}
+.bg-color-10 {
+    background-color: $color10 !important;
+}
+// ----------------------------------------------------Link Animate----------------------------------------------//
+.animate-color-1 {
+    @include link-animate($color1);
+}
+.animate-color-2 {
+    @include link-animate($color2);
+}
+.animate-color-3 {
+    @include link-animate($color3);
+}
+.animate-color-4 {
+    @include link-animate($color4);
+}
+.animate-color-5 {
+    @include link-animate($color5);
+}
+.animate-color-6 {
+    @include link-animate($color6);
+}
+.animate-color-7 {
+    @include link-animate($color7);
+}
+.animate-color-8 {
+    @include link-animate($color8);
+}
+.animate-color-9 {
+    @include link-animate($color9);
+}
+.animate-color-10 {
+    @include link-animate($color10);
+}
+// ----------------------------------------------------Light Backgrounds----------------------------------------------//
+.bg-color-1-light {
+    background-color: rgba($color: $color1, $alpha: 0.2);
+}
+.bg-color-2-light {
+    background-color: rgba($color: $color2, $alpha: 0.2);
+}
+.bg-color-3-light {
+    background-color: rgba($color: $color3, $alpha: 0.2);
+}
+.bg-color-4-light {
+    background-color: rgba($color: $color4, $alpha: 0.2);
+}
+.bg-color-5-light {
+    background-color: rgba($color: $color5, $alpha: 0.2);
+}
+.bg-color-6-light {
+    background-color: rgba($color: $color6, $alpha: 0.2);
+}
+.bg-color-7-light {
+    background-color: rgba($color: $color7, $alpha: 0.2);
+}
+.bg-color-8-light {
+    background-color: rgba($color: $color8, $alpha: 0.2);
+}
+.bg-color-9-light {
+    background-color: rgba($color: $color9, $alpha: 0.2);
+}
+.bg-color-10-light {
+    background-color: rgba($color: $color10, $alpha: 0.2);
+}
+// ----------------------------------------------------Dark Backgrounds----------------------------------------------//
+.bg-color-1-dark {
+    background-color: darken($color: $color1, $amount: 10%);
+}
+.bg-color-2-dark {
+    background-color: darken($color: $color2, $amount: 10%);
+}
+.bg-color-3-dark {
+    background-color: darken($color: $color3, $amount: 10%);
+}
+.bg-color-4-dark {
+    background-color: darken($color: $color4, $amount: 10%);
+}
+.bg-color-5-dark {
+    background-color: darken($color: $color5, $amount: 10%);
+}
+.bg-color-6-dark {
+    background-color: darken($color: $color6, $amount: 10%);
+}
+.bg-color-7-dark {
+    background-color: darken($color: $color7, $amount: 10%);
+}
+.bg-color-8-dark {
+    background-color: darken($color: $color8, $amount: 10%);
+}
+.bg-color-9-dark {
+    background-color: darken($color: $color9, $amount: 10%);
+}
+.bg-color-10-dark {
+    background-color: darken($color: $color10, $amount: 10%);
+}
+// ------------------------------------------------------Hover Shades-----------------------------------------------//
+.bg-color-1-hover {
+    &:hover {
+        background: $color1 !important;
+        border-color: $color1 !important;
+    }
+}
+.bg-color-2-hover {
+    &:hover {
+        background: $color2 !important;
+        border-color: $color2 !important;
+    }
+}
+.bg-color-3-hover {
+    &:hover {
+        background: $color3 !important;
+        border-color: $color3 !important;
+    }
+}
+.bg-color-4-hover {
+    &:hover {
+        background: $color4 !important;
+        border-color: $color4 !important;
+    }
+}
+.bg-color-5-hover {
+    &:hover {
+        background: $color5 !important;
+        border-color: $color5 !important;
+    }
+}
+.bg-color-6-hover {
+    &:hover {
+        background: $color6 !important;
+        border-color: $color6 !important;
+    }
+}
+.bg-color-7-hover {
+    &:hover {
+        background: $color7 !important;
+        border-color: $color7 !important;
+    }
+}
+.bg-color-8-hover {
+    &:hover {
+        background: $color8 !important;
+        border-color: $color8 !important;
+    }
+}
+.bg-color-9-hover {
+    &:hover {
+        background: $color9 !important;
+        border-color: $color9 !important;
+    }
+}
+.bg-color-10-hover {
+    &:hover {
+        background: $color10 !important;
+        border-color: $color10 !important;
+    }
+}
+// Light Background
+.bg-color-1-light-hover {
+    &:hover {
+        background: rgba($color: $color1, $alpha: 0.2);
+    }
+}
+.bg-color-2-light-hover {
+    &:hover {
+        background: rgba($color: $color2, $alpha: 0.2);
+    }
+}
+.bg-color-3-light-hover {
+    &:hover {
+        background: rgba($color: $color3, $alpha: 0.2);
+    }
+}
+.bg-color-4-light-hover {
+    &:hover {
+        background: rgba($color: $color4, $alpha: 0.2);
+    }
+}
+.bg-color-5-light-hover {
+    &:hover {
+        background: rgba($color: $color5, $alpha: 0.2);
+    }
+}
+.bg-color-6-light-hover {
+    &:hover {
+        background: rgba($color: $color6, $alpha: 0.2);
+    }
+}
+.bg-color-7-light-hover {
+    &:hover {
+        background: rgba($color: $color7, $alpha: 0.2);
+    }
+}
+.bg-color-8-light-hover {
+    &:hover {
+        background: rgba($color: $color8, $alpha: 0.2);
+    }
+}
+.bg-color-9-light-hover {
+    &:hover {
+        background: rgba($color: $color9, $alpha: 0.2);
+    }
+}
+.bg-color-10-light-hover {
+    &:hover {
+        background: rgba($color: $color10, $alpha: 0.2);
+    }
+}
+// Dark Background
+.bg-color-1-dark-hover {
+    &:hover {
+        background-color: darken($color: $color1, $amount: 10%);
+    }
+}
+.bg-color-2-dark-hover {
+    &:hover {
+        background-color: darken($color: $color2, $amount: 10%);
+    }
+}
+.bg-color-3-dark-hover {
+    &:hover {
+        background-color: darken($color: $color3, $amount: 10%);
+    }
+}
+.bg-color-4-dark-hover {
+    &:hover {
+        background-color: darken($color: $color4, $amount: 10%);
+    }
+}
+.bg-color-5-dark-hover {
+    &:hover {
+        background-color: darken($color: $color5, $amount: 10%);
+    }
+}
+.bg-color-6-dark-hover {
+    &:hover {
+        background-color: darken($color: $color6, $amount: 10%);
+    }
+}
+.bg-color-7-light-hover {
+    &:hover {
+        background: rgba($color: $color7, $alpha: 0.2);
+    }
+}
+.bg-color-8-light-hover {
+    &:hover {
+        background: rgba($color: $color8, $alpha: 0.2);
+    }
+}
+.bg-color-9-light-hover {
+    &:hover {
+        background: rgba($color: $color9, $alpha: 0.2);
+    }
+}
+.bg-color-10-light-hover {
+    &:hover {
+        background: rgba($color: $color10, $alpha: 0.2);
+    }
+}
+// Text
+.text-color-1-hover {
+    &:hover {
+        color: $color1 !important;
+        a,
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        label,
+        span,
+        i {
+            color: $color1 !important;
+        }
+    }
+}
+.text-color-2-hover {
+    &:hover {
+        color: $color2 !important;
+        a,
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        label,
+        span,
+        i {
+            color: $color2 !important;
+        }
+    }
+}
+.text-color-3-hover {
+    &:hover {
+        color: $color3 !important;
+        a,
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        label,
+        span,
+        i {
+            color: $color3 !important;
+        }
+    }
+}
+.text-color-3-hover {
+    &:hover {
+        color: $color3 !important;
+        a,
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        label,
+        span,
+        i {
+            color: $color3 !important;
+        }
+    }
+}
+.text-color-4-hover {
+    &:hover {
+        color: $color4 !important;
+        a,
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        label,
+        span,
+        i {
+            color: $color4 !important;
+        }
+    }
+}
+.text-color-5-hover {
+    &:hover {
+        color: $color5 !important;
+        a,
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        label,
+        span,
+        i {
+            color: $color5 !important;
+        }
+    }
+}
+.text-color-6-hover {
+    &:hover {
+        color: $color6 !important;
+        a,
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        label,
+        span,
+        i {
+            color: $color6 !important;
+        }
+    }
+}
+.text-color-7-hover {
+    &:hover {
+        color: $color7 !important;
+        a,
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        label,
+        span,
+        i {
+            color: $color7 !important;
+        }
+    }
+}
+.text-color-8-hover {
+    &:hover {
+        color: $color8 !important;
+        a,
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        label,
+        span,
+        i {
+            color: $color8 !important;
+        }
+    }
+}
+.text-color-9-hover {
+    &:hover {
+        color: $color9 !important;
+        a,
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        label,
+        span,
+        i {
+            color: $color9 !important;
+        }
+    }
+}
+.text-color-10-hover {
+    &:hover {
+        color: $color10 !important;
+        a,
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        label,
+        span,
+        i {
+            color: $color10 !important;
+        }
+    }
+}
+// ------------------------------------------------------Border Shades-----------------------------------------------//
+.border-color-1 {
+    border: 1px solid $color1 !important;
+}
+.border-color-2 {
+    border: 1px solid $color2 !important;
+}
+.border-color-3 {
+    border: 1px solid $color3 !important;
+}
+.border-color-4 {
+    border: 1px solid $color4 !important;
+}
+.border-color-5 {
+    border: 1px solid $color5 !important;
+}
+.border-color-6 {
+    border: 1px solid $color6 !important;
+}
+.border-color-7 {
+    border: 1px solid $color7 !important;
+}
+.border-color-8 {
+    border: 1px solid $color8 !important;
+}
+.border-color-9 {
+    border: 1px solid $color9 !important;
+}
+.border-color-10 {
+    border: 1px solid $color10 !important;
+}
+// ----------------------------------------------------------------Buttons---------------------------------------------------------------//
+.btn-color-1 {
+    @include buttn($color1, $white, $color1);
+}
+.btn-color-2 {
+    @include buttn($color2, $white, $color2);
+}
+.btn-color-3 {
+    @include buttn($color3, $white, $color3);
+}
+.btn-color-4 {
+    @include buttn($color4, $white, $color4);
+}
+.btn-color-5 {
+    @include buttn($color5, $white, $color5);
+}
+.btn-color-6 {
+    @include buttn($color6, $white, $color6);
+}
+.btn-color-7 {
+    @include buttn($color7, $white, $color7);
+}
+.btn-color-8 {
+    @include buttn($color8, $white, $color8);
+}
+.btn-color-9 {
+    @include buttn($color9, $white, $color9);
+}
+.btn-color-10 {
+    @include buttn($color10, $white, $color10);
+}

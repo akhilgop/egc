@@ -1,0 +1,109 @@
+// --------------------------------------------------------------------Table-----------------------------------------------------------------//
+.table-responsive {
+    thead {
+        th:first-child {
+            border-top-left-radius: $form-rds;
+        }
+        th:last-child {
+            border-top-right-radius: $form-rds;
+        }
+        th {
+            background-color: $primary !important;
+            color: $white;
+        }
+    }
+    tbody {
+        tr:last-child {
+            th,
+            td {
+                &:first-child {
+                    border-bottom-left-radius: $form-rds;
+                }
+            }
+            th,
+            td {
+                &:last-child {
+                    border-bottom-right-radius: $form-rds;
+                }
+            }
+            th,
+            td {
+                border-bottom-width: 0px !important;
+            }
+        }
+    }
+    .table-normal > :not(caption) > * > * {
+        background-color: rgba($color: $primary, $alpha: 0.1);
+        padding: 10px 15px;
+    }
+}
+.table-custom {
+    .table-mgn {
+        display: none;
+        height: 10px;
+    }
+    .table-heading-media {
+        display: none;
+        font-weight: 600;
+    }
+}
+@media screen and (max-width: 575px) {
+    .table-custom {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        thead {
+            display: none;
+        }
+        tr {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            border-radius: $form-rds;
+            overflow: hidden;
+        }
+        .table-mgn {
+            display: block;
+        }
+        td,
+        th,
+        tbody {
+            width: 100%;
+            text-align: left;
+        }
+        .table-heading-media {
+            display: block;
+        }
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    .table-custom {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        thead {
+            display: none;
+        }
+        tr {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            border-radius: $form-rds;
+            overflow: hidden;
+        }
+        .table-mgn {
+            display: block;
+        }
+        tbody {
+            width: 100%;
+        }
+        td,
+        th {
+            width: 50%;
+            text-align: left;
+        }
+        .table-heading-media {
+            display: block;
+        }
+    }
+}

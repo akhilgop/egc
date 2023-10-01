@@ -1,0 +1,349 @@
+// ----------------------------------------------------Button-----------------------------------------------------//
+button,
+.btn {
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    @include transition;
+    font-size: 14px;
+    &:hover,
+    &:active,
+    &:focus {
+        box-shadow: none !important;
+        outline: 0;
+    }
+}
+.btn {
+    height: $height-sm;
+    @include in-flex-hv-cntr;
+    padding: $btn-pad;
+    border-radius: $form-rds;
+}
+.btn-pill {
+    border-radius: $height-xxl !important;
+}
+.btn-sm {
+    height: $height-sm;
+}
+.btn-xs {
+    height: $height-xs;
+}
+.btn-sm {
+    height: $height-sm;
+    font-size: $fs-14;
+    padding: 0 20px !important;
+}
+.btn-xs {
+    height: $height-xs !important;
+    font-size: $fs-12;
+    padding: 0 15px !important;
+}
+.btn-lg {
+    height: $height-lg !important;
+    font-size: $fs-18;
+}
+.btn-xl {
+    height: $height-xl;
+    padding: 0 40px !important;
+    font-size: $fs-20;
+}
+.btn-xxl {
+    height: $height-xxl;
+    padding: 0 50px !important;
+    font-size: $fs-24;
+}
+.btn-xxxl {
+    height: $height-xxxl;
+    padding: 0 75px !important;
+    font-size: $fs-30;
+    border-radius: $form-rds;
+}
+// ----------------------------------------------------Solid Button-----------------------------------------------------//
+.btn-primary {
+    @include buttn($primary, $white, $primary);
+}
+
+.btn-secondary {
+    @include buttn($secondary, $white, $secondary);
+}
+.btn-danger {
+    @include buttn($danger, $white, $danger);
+}
+.btn-success {
+    @include buttn($success, $white, $success);
+}
+.btn-warning {
+    @include buttn($warning, $white, $warning);
+}
+.btn-info {
+    @include buttn($info, $white, $info);
+}
+.btn-tertiary {
+    @include buttn($tertiary, $white, $tertiary);
+    &:hover {
+        color: $white !important;
+    }
+}
+.btn-success,
+.btn-outline-success {
+    border: 1px solid $success;
+}
+.btn-danger,
+.btn-outline-danger {
+    border: 1px solid $danger;
+}
+.btn-warning,
+.btn-outline-warning {
+    border: 1px solid $warning;
+}
+.btn-info,
+.btn-outline-info {
+    border: 1px solid $info;
+}
+
+.btn-light {
+    @include buttn($white6, $body-color, $white6);
+}
+
+.btn-white {
+    @include buttn($white, $primary, $white);
+}
+.btn-black {
+    @include buttn($black, $white, $black);
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $primary !important;
+        border-color: $primary !important;
+        color: $white !important;
+    }
+}
+.btn-dark {
+    @include buttn($dark, $white, $dark);
+}
+.btn-google {
+    @include buttn($google, $white, $google);
+}
+.btn-facebook {
+    @include buttn($facebook, $white, $facebook);
+}
+// ---------------------------------------------------Outline Button-----------------------------------------------------//
+.btn-outline-primary {
+    @include buttn-outline($trans, $primary, $primary);
+}
+
+.btn-outline-secondary {
+    @include buttn-outline($trans, $secondary, $secondary);
+}
+.btn-outline-tertiary {
+    @include buttn-outline($trans, $tertiary, $tertiary);
+}
+.btn-outline-danger {
+    @include buttn-outline($trans, $danger, $danger);
+}
+.btn-outline-success {
+    @include buttn-outline($trans, $success, $success);
+}
+.btn-outline-warning {
+    @include buttn-outline($trans, $warning, $warning);
+}
+.btn-outline-info {
+    @include buttn-outline($trans, $info, $info);
+}
+
+.btn-outline-light {
+    @include buttn-outline($trans, $white6, $white6);
+}
+.btn-outline-black {
+    @include buttn-outline($trans, $black, $black);
+    color: $black !important;
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $black;
+        border-color: $black;
+        color: $white !important;
+    }
+}
+.btn-outline-google {
+    @include buttn-outline($trans, $google, $google);
+}
+.btn-outline-facebook {
+    @include buttn-outline($trans, $facebook, $facebook);
+}
+.btn-outline-danger,
+.btn-outline-success,
+.btn-outline-warning,
+.btn-outline-info {
+    background-color: $white;
+}
+// ----------------------------------------------------Light Button-----------------------------------------------------//
+.btn-primary-light {
+    @include buttn-light($primary);
+}
+.btn-secondary-light {
+    @include buttn-light($secondary);
+}
+.btn-tertiary-light {
+    @include buttn-light($tertiary);
+}
+.btn-success-light {
+    @include buttn-light($success);
+}
+.btn-danger-light {
+    @include buttn-light($danger);
+}
+.btn-warning-light {
+    @include buttn-light($warning);
+}
+.btn-info-light {
+    @include buttn-light($info);
+}
+.btn-black-light {
+    @include buttn-light($black);
+}
+.btn-google-light {
+    @include buttn-light($google);
+}
+.btn-facebook-light {
+    @include buttn-light($facebook);
+}
+// ----------------------------------------------------Animate Button---------------------------------------------------//
+.btn-primary-animate {
+    @include btn-animate($primary, $white, $secondary);
+}
+.btn-secondary-animate {
+    @include btn-animate($secondary, $white, $tertiary);
+}
+.btn-tertiary-animate {
+    @include btn-animate($tertiary, $white, $secondary);
+}
+.btn-outline-primary-animate {
+    @include btn-animate($white, $primary, $secondary);
+}
+.btn-outline-secondary-animate {
+    @include btn-animate($white, $secondary, $tertiary);
+}
+.btn-outline-tertiary-animate {
+    @include btn-animate($white, $tertiary, $secondary);
+}
+.btn-outline-white {
+    @include buttn-outline($trans, $white6, $white6);
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $white;
+        border-color: $white;
+        color: $primary;
+    }
+}
+// ----------------------------------------------------------------Icon Button---------------------------------------------------------------//
+.btn-circle {
+    @include round($height-default);
+    border: 1px solid transparent;
+}
+.circle-outline-white {
+    @include outline-circle($white);
+}
+.circle-outline-primary {
+    @include outline-circle($primary);
+}
+.circle-outline-secondary {
+    @include outline-circle($secondary);
+}
+.circle-outline-tertiary {
+    @include outline-circle($tertiary);
+}
+.btn-icon {
+    width: $height-default;
+    height: $height-default;
+    min-width: $height-default;
+    border-radius: $form-rds;
+    @include flex-hv-cntr;
+    border: 1px solid transparent;
+}
+// ------------------------------------------------------------------Slider Button Button---------------------------------------------------------------//
+.arrow-round-btn {
+    @include round($height-default);
+}
+.arrow-icon-btn {
+    @include square($height-default);
+}
+.arrow-primary {
+    border: 3px solid $primary;
+    color: $primary;
+}
+.arrow-secondary {
+    border: 3px solid $secondary;
+    color: $secondary;
+}
+.arrow-tertiary {
+    border: 3px solid $tertiary;
+    color: $tertiary;
+}
+.arrow-black {
+    border: 3px solid $black;
+    color: $black;
+}
+// -------------------------------------------------------------------Toggle Buttons--------------------------------------------------------------------//
+.btn-check:active + .btn-outline-primary:focus,
+.btn-check:checked + .btn-outline-primary:focus,
+.btn-outline-primary.active:focus,
+.btn-outline-primary.dropdown-toggle.show:focus,
+.btn-outline-primary:active:focus {
+    box-shadow: none !important;
+    background-color: $primary;
+}
+.btn-check:active + .btn-outline-primary,
+.btn-check:checked + .btn-outline-primary,
+.btn-outline-primary.active,
+.btn-outline-primary.dropdown-toggle.show,
+.btn-outline-primary:active {
+    box-shadow: none !important;
+    background-color: $primary;
+    border-color: $primary;
+}
+.btn-check:focus + .btn-outline-primary,
+.btn-outline-primary:focus {
+    box-shadow: none !important;
+}
+// -------------------------------------------------------------------Button with Icon--------------------------------------------------------------------//
+.btn-with-icon {
+    i {
+        padding-left: 20px;
+        font-size: 18px;
+    }
+}
+.btn-with-icon {
+    position: relative;
+    padding-right: 4rem;
+    text-align: left;
+}
+.btn-with-icon i {
+    transform: translate(0, -50%);
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+}
+.btn-with-icon.btn-sm,
+.btn-group-sm > .btn-with-icon.btn {
+    padding-right: 3rem;
+}
+.btn-with-icon.btn-sm .bi,
+.btn-group-sm > .btn-with-icon.btn .bi {
+    right: 1.5rem;
+}
+.btn-with-icon.btn-lg,
+.btn-group-lg > .btn-with-icon.btn {
+    padding-right: 5rem;
+}
+.btn-with-icon.btn-lg .bi,
+.btn-group-lg > .btn-with-icon.btn .bi {
+    right: 2.5rem;
+}
+
+@media screen and (max-width: 1299px) {
+    .btn {
+        padding: $btn-pad-md !important;
+    }
+}

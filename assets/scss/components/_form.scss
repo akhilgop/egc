@@ -1,0 +1,118 @@
+// ----------------------------------------------------Form Control-----------------------------------------------------//
+.form-check-input:checked {
+    background-color: $primary;
+    border-color: $primary;
+    box-shadow: none;
+    outline: 0;
+}
+.form-check-inline {
+    margin-right: 30px;
+}
+
+.form-control {
+    height: $height-default;
+    border: 1px solid $border-color;
+    border-radius: $form-rds;
+    font-size: calc(#{$p} - 2px);
+    font-weight: 400;
+    &:focus {
+        box-shadow: none;
+        outline: 0;
+        border-color: $primary;
+    }
+}
+.form-control-xs {
+    height: $height-xs !important;
+}
+
+.form-control-sm {
+    height: $height-sm !important;
+}
+.form-control-lg {
+    height: $height-lg !important;
+}
+.form-control-xl {
+    height: $height-xl !important;
+}
+.form-control-xxl {
+    height: $height-xxl !important;
+}
+.form-control-xxxl {
+    height: $height-xxxl !important;
+}
+.fc-square {
+    width: $height-default !important;
+    height: $height-default !important;
+    text-align: center;
+}
+.input-group > .fc-square {
+    flex: inherit !important;
+}
+textarea.form-control {
+    height: inherit !important;
+    resize: none;
+}
+.form-check-input:focus {
+    box-shadow: none !important;
+}
+.form-check-label {
+    color: $body-color;
+    opacity: 0.7;
+    font-size: $p !important;
+    font-weight: 400 !important;
+}
+.input-group-text {
+    padding: 0px 20px;
+    background-color: $white;
+    border-radius: $form-rds;
+}
+.input-group {
+    display: flex;
+    .btn {
+        height: $height-default;
+    }
+}
+.pos-rel {
+    position: relative;
+    .form-control-icon {
+        position: absolute;
+        top: 37%;
+        right: 15px;
+        color: $primary;
+        z-index: 333;
+    }
+}
+#datepicker {
+    .form-control {
+        border-top-right-radius: $form-rds;
+        border-bottom-right-radius: $form-rds;
+        padding-right: 40px;
+    }
+}
+.timepicker {
+    position: relative;
+    .time-icon {
+        position: absolute;
+        top: 20%;
+        right: 8px;
+        color: $primary;
+        z-index: 333;
+        background-color: $white;
+        padding: $pad-sm;
+    }
+}
+// ----------------------------------------------------Placeholder-----------------------------------------------------//
+
+.form-control::-webkit-input-placeholder {
+    color: rgba($color: $body-color, $alpha: 0.5);
+}
+
+.form-control::-moz-placeholder {
+    color: rgba($color: $body-color, $alpha: 0.5);
+}
+.form-control:-ms-input-placeholder {
+    color: rgba($color: $body-color, $alpha: 0.5);
+}
+.form-control:placeholder {
+    color: rgba($color: $body-color, $alpha: 0.5);
+}

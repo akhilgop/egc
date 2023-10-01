@@ -1,0 +1,512 @@
+@media screen and (max-width: 575px) {
+    div.left-sidebar {
+        padding: 0 10px !important;
+        ul,
+        li {
+            width: auto !important;
+        }
+    }
+    .main-nav {
+        width: calc(100% - 70px) !important;
+        justify-content: flex-end;
+        padding: 12px !important;
+        .navbar-toggler {
+            padding: 0 !important;
+            border: 0 !important;
+            .navbar-toggler-icon {
+                width: 1.2rem !important;
+                height: 1.2rem !important;
+            }
+        }
+    }
+    div.list-toggle {
+        margin-left: 10px !important;
+    }
+    .content-wrapper {
+        margin-top: 80px !important;
+    }
+    .indications {
+        flex-wrap: wrap;
+        justify-content: flex-start !important;
+        margin-top: 10px !important;
+        .d-flex {
+            width: 40% !important;
+        }
+    }
+    .todays-schedule {
+        .contant-wrapper {
+            border: none !important;
+        }
+    }
+    .meeting-tile {
+        left: 20px !important;
+        .right-side {
+            display: none;
+        }
+    }
+    .calendar-wrapper .calendar-widget {
+        margin-top: 20px !important;
+    }
+    div.right-content {
+        margin-left: 70px !important;
+        width: calc(100% - 70px);
+    }
+    .calendar-wrapper .ui-datepicker table {
+        width: calc(100% - 70px) !important;
+    }
+    div.left-sidebar .nav-link {
+        padding: 5px 8px !important;
+    }
+    .calendar-wrapper .ui-state-default {
+        width: 28px !important;
+        line-height: 30px !important;
+    }
+    .calendar-wrapper .ui-datepicker {
+        margin: 20px 5px !important;
+    }
+    .calendar-wrapper {
+        * {
+            text-align: center;
+        }
+    }
+    .main-btn-wrapper {
+        flex-wrap: wrap;
+        justify-content: flex-start !important;
+        .btn {
+            width: 100% !important;
+        }
+    }
+    .meeting-tile {
+        .date-n-time {
+            top: 5px !important;
+        }
+        h6 {
+            font-size: 14px !important;
+            margin-top: 5px !important;
+        }
+    }
+    .meeting-tab {
+        .nav-link {
+            padding: 0.5rem !important;
+        }
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    div.left-sidebar {
+        padding: 0 10px !important;
+        ul,
+        li {
+            width: auto !important;
+        }
+    }
+    .main-nav {
+        width: calc(100% - 70px) !important;
+        justify-content: flex-end;
+        padding: 12px !important;
+        .navbar-toggler {
+            padding: 0 !important;
+            border: 0 !important;
+            .navbar-toggler-icon {
+                width: 1.2rem !important;
+                height: 1.2rem !important;
+            }
+        }
+    }
+    .content-wrapper {
+        margin-top: 80px !important;
+    }
+    .indications {
+        flex-wrap: wrap;
+        justify-content: flex-start !important;
+        margin-top: 10px !important;
+        .d-flex {
+            width: 40% !important;
+        }
+    }
+    .todays-schedule {
+        .contant-wrapper {
+            border: none !important;
+        }
+    }
+    .meeting-tile {
+        left: 20px !important;
+        .right-side {
+            display: none;
+        }
+    }
+    .calendar-wrapper .calendar-widget {
+        margin-top: 20px !important;
+    }
+    div.right-content {
+        margin-left: 70px !important;
+        width: calc(100% - 70px);
+    }
+    .calendar-wrapper .ui-datepicker table {
+        width: calc(100% - 70px) !important;
+    }
+    div.left-sidebar .nav-link {
+        padding: 5px 8px !important;
+    }
+    .calendar-wrapper .ui-state-default {
+        width: 28px !important;
+        line-height: 30px !important;
+    }
+    .calendar-wrapper .ui-datepicker {
+        margin: 20px 5px !important;
+    }
+    .calendar-wrapper {
+        * {
+            text-align: center;
+        }
+    }
+    .main-btn-wrapper {
+        flex-wrap: wrap;
+        justify-content: flex-start !important;
+        .btn {
+            width: 100% !important;
+        }
+    }
+    .meeting-tile {
+        .date-n-time {
+            top: 5px !important;
+        }
+        h6 {
+            font-size: 14px !important;
+            margin-top: 5px !important;
+        }
+    }
+    .meeting-tab {
+        .nav-link {
+            padding: 0.5rem !important;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    div.left-sidebar {
+        padding: 0 10px !important;
+        ul,
+        li {
+            width: auto !important;
+        }
+    }
+    .main-nav {
+        width: calc(100% - 70px) !important;
+        justify-content: flex-end;
+        padding: 12px !important;
+        .navbar-toggler {
+            padding: 0 !important;
+            border: 0 !important;
+            .navbar-toggler-icon {
+                width: 1.2rem !important;
+                height: 1.2rem !important;
+            }
+        }
+    }
+    .content-wrapper {
+        margin-top: 80px !important;
+    }
+    .indications {
+        flex-wrap: wrap;
+        justify-content: flex-start !important;
+        margin-top: 10px !important;
+        .d-flex {
+            width: 40% !important;
+        }
+    }
+
+    .meeting-tile {
+        left: 20px !important;
+        .right-side {
+            display: none;
+        }
+    }
+    .calendar-wrapper .calendar-widget {
+        margin-top: 20px !important;
+    }
+    div.right-content {
+        margin-left: 70px !important;
+        width: calc(100% - 70px);
+    }
+    .calendar-wrapper .ui-datepicker table {
+        width: calc(100% - 70px) !important;
+    }
+    div.left-sidebar .nav-link {
+        padding: 5px 8px !important;
+    }
+    .calendar-wrapper .ui-state-default {
+        width: 28px !important;
+        line-height: 30px !important;
+    }
+    .calendar-wrapper .ui-datepicker {
+        margin: 20px 5px !important;
+    }
+    .calendar-wrapper {
+        * {
+            text-align: center;
+        }
+    }
+    .main-btn-wrapper {
+        flex-wrap: wrap;
+        justify-content: flex-start !important;
+        .btn {
+            width: 100% !important;
+        }
+    }
+    .meeting-tile {
+        .date-n-time {
+            top: 5px !important;
+        }
+        h6 {
+            font-size: 14px !important;
+            margin-top: 5px !important;
+        }
+    }
+    .meeting-tab {
+        .nav-link {
+            padding: 0.5rem !important;
+        }
+    }
+
+    .main-btn-wrapper {
+        padding-left: 30px;
+    }
+    div.events-card p {
+        font-size: 13px !important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    div.right-content {
+        margin-left: 210px;
+    }
+    .content-wrapper {
+        margin-top: 73px;
+    }
+    .main-nav {
+        width: calc(100% - 250px) !important;
+        justify-content: flex-end;
+        padding: 12px !important;
+        .navbar-toggler {
+            padding: 0 !important;
+            border: 0 !important;
+            .navbar-toggler-icon {
+                width: 1.2rem !important;
+                height: 1.2rem !important;
+            }
+        }
+    }
+    .indications {
+        flex-wrap: wrap;
+        justify-content: flex-start !important;
+        margin-top: 10px !important;
+        .d-flex {
+            width: 40% !important;
+        }
+    }
+    .meeting-tile {
+        left: 20px !important;
+        .users-avatar {
+            display: none !important;
+        }
+        h6 {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            width: 70% !important;
+        }
+        .inner-wrap .left-side {
+            width: 70% !important;
+        }
+    }
+    .calendar-wrapper .ui-datepicker table {
+        width: calc(100% - 70px) !important;
+    }
+    div.left-sidebar .nav-link {
+        padding: 5px 12px !important;
+    }
+    .calendar-wrapper .ui-state-default {
+        width: 28px !important;
+        line-height: 30px !important;
+    }
+    .calendar-wrapper .ui-datepicker {
+        margin: 20px 5px !important;
+    }
+    .calendar-wrapper {
+        * {
+            text-align: center;
+        }
+    }
+    .todays-schedule .today-wrapper {
+        height: 90vh !important;
+    }
+    .inner-wrap {
+        align-items: flex-end !important;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    div.right-content {
+        margin-left: 244px !important;
+    }
+    .content-wrapper {
+        margin-top: 90px !important;
+    }
+    .main-nav {
+        width: calc(100% - 250px) !important;
+        justify-content: flex-end;
+        padding: 12px !important;
+        .navbar-toggler {
+            padding: 0 !important;
+            border: 0 !important;
+            .navbar-toggler-icon {
+                width: 1.2rem !important;
+                height: 1.2rem !important;
+            }
+        }
+    }
+    .indications {
+        flex-wrap: wrap;
+        justify-content: flex-start !important;
+        margin-top: 10px !important;
+        .d-flex {
+            width: 40% !important;
+        }
+    }
+    .meeting-tile {
+        left: 20px !important;
+        .users-avatar {
+            display: none !important;
+        }
+        h6 {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
+    .inner-wrap {
+        align-items: flex-end !important;
+    }
+    .calendar-wrapper .ui-datepicker table {
+        width: calc(100% - 70px) !important;
+    }
+    div.left-sidebar .nav-link {
+        padding: 5px 12px !important;
+    }
+    .calendar-wrapper .ui-state-default {
+        width: 28px !important;
+        line-height: 30px !important;
+    }
+    .calendar-wrapper .ui-datepicker {
+        margin: 20px 5px !important;
+    }
+    .calendar-wrapper {
+        * {
+            text-align: center;
+        }
+    }
+    .todays-schedule .today-wrapper {
+        height: 90vh !important;
+    }
+    .left-sidebar {
+        .users-avatar {
+            margin-left: 10px;
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1699px) {
+    div.right-content {
+        margin-left: 265px !important;
+    }
+    .content-wrapper {
+        margin-top: 70px !important;
+    }
+    .main-nav {
+        width: calc(100% - 265px) !important;
+        justify-content: flex-end;
+        padding: 12px !important;
+        .navbar-toggler {
+            padding: 0 !important;
+            border: 0 !important;
+            .navbar-toggler-icon {
+                width: 1.2rem !important;
+                height: 1.2rem !important;
+            }
+        }
+    }
+    .todays-schedule .today-wrapper {
+        height: 100vh !important;
+    }
+    .col-xxl-2 {
+        width: 265px !important;
+    }
+    .col-xxl-3 {
+        width: 30% !important;
+    }
+    .col-xxl-9 {
+        width: 70% !important;
+    }
+    .col-xxl-7 {
+        width: 70% !important;
+    }
+}
+
+@media screen and (min-width: 1701px) and (max-width: 1919px) {
+    div.right-content {
+        margin-left: 285px !important;
+    }
+    .content-wrapper {
+        margin-top: 70px !important;
+    }
+    .main-nav {
+        width: calc(100% - 285px) !important;
+        justify-content: flex-end;
+        padding: 12px !important;
+        .navbar-toggler {
+            padding: 0 !important;
+            border: 0 !important;
+            .navbar-toggler-icon {
+                width: 1.2rem !important;
+                height: 1.2rem !important;
+            }
+        }
+    }
+    .todays-schedule .today-wrapper {
+        height: 100vh !important;
+    }
+    .col-xxl-3 {
+        width: 27% !important;
+    }
+    .col-xxl-9 {
+        width: 73% !important;
+    }
+    .col-xxl-2 {
+        width: 285px !important;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .left-sidebar {
+        width: 319px !important;
+    }
+}
+@media screen and (min-width: 1700px) {
+    // .container {
+    //     max-width: 1620px !important;
+    // }
+}
+@media screen and (min-width: 1200px) {
+    div.right-content {
+        margin-left: 319px;
+    }
+    .content-wrapper {
+        margin-top: 73px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .logo {
+        padding-left: 20px;
+    }
+}

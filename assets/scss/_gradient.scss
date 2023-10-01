@@ -1,0 +1,221 @@
+// ----------------------------------------------------Gradient Shades----------------------------------------------//
+$primary-gradient: linear-gradient(to right, $primary, $secondary);
+$secondary-gradient: linear-gradient(to right, $secondary, $tertiary);
+$tertiary-gradient: linear-gradient(to right, $tertiary, $primary);
+$blue-gradient: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+$vital-ocean: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+$kale-salad: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
+$disco-club: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+$shady-line: linear-gradient(90deg, #3f2b96 0%, #a8c0ff 100%);
+$par-four: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+$sea-salt: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+$blue-green: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+$red-yellow: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+$lilly: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+$aqua-spray: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+$yellow-green: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+$cactus: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+$chilly-mix: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+$magenta-blue: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+
+// ----------------------------------------------------Button-----------------------------------------------------//
+.btn-primary-gradient {
+    @include gradient-button($primary-gradient, $white);
+}
+.btn-secondary-gradient {
+    @include gradient-button($secondary-gradient, $white);
+}
+.btn-tertiary-gradient {
+    @include gradient-button($tertiary-gradient, $white);
+}
+.btn-blue-gradient {
+    @include gradient-button($blue-gradient, $white);
+}
+.btn-vital-ocean {
+    @include gradient-button($vital-ocean, $white);
+}
+.btn-kale-salad {
+    @include gradient-button($kale-salad, $white);
+}
+.btn-disco-club {
+    @include gradient-button($disco-club, $white);
+}
+.btn-shady-line {
+    @include gradient-button($shady-line, $white);
+}
+.btn-par-four {
+    @include gradient-button($par-four, $white);
+}
+.btn-sea-salt {
+    @include gradient-button($sea-salt, $white);
+}
+.btn-blue-green {
+    @include gradient-button($blue-green, $white);
+}
+.btn-red-yellow {
+    @include gradient-button($red-yellow, $white);
+}
+.btn-lilly {
+    @include gradient-button($lilly, $white);
+}
+.btn-aqua-spray {
+    @include gradient-button($aqua-spray, $white);
+}
+.btn-yellow-green {
+    @include gradient-button($yellow-green, $white);
+}
+.btn-cactus {
+    @include gradient-button($cactus, $white);
+}
+.btn-chilly-mix {
+    @include gradient-button($chilly-mix, $white);
+}
+.btn-magenta-blue {
+    @include gradient-button($magenta-blue, $white);
+}
+// ----------------------------------------------------Background-----------------------------------------------------//
+.bg-primary-gradient {
+    background: $primary-gradient !important;
+    color: $white !important;
+}
+.bg-secondary-gradient {
+    background: $primary-gradient !important;
+    color: $white !important;
+}
+.bg-tertiary-gradient {
+    background: $primary-gradient !important;
+    color: $white !important;
+}
+.bg-blue-gradient {
+    background: $blue-gradient !important;
+    color: $white !important;
+}
+.bg-vital-ocean {
+    background: $vital-ocean !important;
+    color: $white !important;
+}
+.bg-kale-salad {
+    background: $kale-salad !important;
+    color: $white !important;
+}
+.bg-disco-club {
+    background: $disco-club !important;
+    color: $white !important;
+}
+.bg-shady-line {
+    background: $shady-line !important;
+    color: $white !important;
+}
+.bg-par-four {
+    background: $par-four !important;
+    color: $white !important;
+}
+.bg-sea-salt {
+    background: $sea-salt !important;
+    color: $white !important;
+}
+.bg-blue-green {
+    background: $blue-green !important;
+    color: $white !important;
+}
+.bg-red-yellow {
+    background: $red-yellow !important;
+    color: $white !important;
+}
+.bg-lilly {
+    background: $lilly !important;
+    color: $white !important;
+}
+.bg-aqua-spray {
+    background: $aqua-spray !important;
+    color: $white !important;
+}
+.bg-yellow-green {
+    background: $yellow-green !important;
+    color: $white !important;
+}
+.bg-cactus {
+    background: $cactus !important;
+    color: $white !important;
+}
+.bg-chilly-mix {
+    background: $chilly-mix !important;
+    color: $white !important;
+}
+.bg-magenta-blue {
+    background: $magenta-blue !important;
+    color: $white !important;
+}
+// ----------------------------------------------------Gradient Text-----------------------------------------------------//
+.text-primary-gradient {
+    background: -webkit-linear-gradient(45deg, $primary, $secondary);
+    @include text-gradient;
+}
+.text-secondary-gradient {
+    background: -webkit-linear-gradient(45deg, $secondary, $tertiary);
+    @include text-gradient;
+}
+.text-tertiary-gradient {
+    background: -webkit-linear-gradient(45deg, $tertiary, $primary);
+    @include text-gradient;
+}
+.text-blue-gradient {
+    background: -webkit-linear-gradient(45deg, #020024 0%, $blue 35%, #00d4ff 100%);
+    @include text-gradient;
+}
+.text-vital-ocean {
+    background: -webkit-linear-gradient(45deg, #1cb5e0 0%, #000851 100%);
+    @include text-gradient;
+}
+.text-kale-salad {
+    background: -webkit-linear-gradient(45deg, #00c9ff 0%, #92fe9d 100%);
+    @include text-gradient;
+}
+.text-disco-club {
+    background: -webkit-linear-gradient(45deg, #fc466b 0%, #3f5efb 100%);
+    @include text-gradient;
+}
+.text-shady-line {
+    background: -webkit-linear-gradient(45deg, #3f2b96 0%, #a8c0ff 100%);
+    @include text-gradient;
+}
+.text-par-four {
+    background: -webkit-linear-gradient(45deg, #9ebd13 0%, #008552 100%);
+    @include text-gradient;
+}
+.text-sea-salt {
+    background: -webkit-linear-gradient(45deg, #4b6cb7 0%, #182848 100%);
+    @include text-gradient;
+}
+.text-blue-green {
+    background: -webkit-linear-gradient(45deg, #0700b8 0%, #00ff88 100%);
+    @include text-gradient;
+}
+.text-red-yellow {
+    background: -webkit-linear-gradient(45deg, #d53369 0%, #daae51 100%);
+    @include text-gradient;
+}
+.text-lilly {
+    background: -webkit-linear-gradient(45deg, #efd5ff 0%, #515ada 100%);
+    @include text-gradient;
+}
+.text-aqua-spray {
+    background: -webkit-linear-gradient(45deg, #00d2ff 0%, #3a47d5 100%);
+    @include text-gradient;
+}
+.text-yellow-green {
+    background: -webkit-linear-gradient(45deg, #f8ff00 0%, #3ad59f 100%);
+    @include text-gradient;
+}
+.text-cactus {
+    background: -webkit-linear-gradient(45deg, #fcff9e 0%, #c67700 100%);
+    @include text-gradient;
+}
+.text-chilly-mix {
+    background: -webkit-linear-gradient(45deg, #ffe53b 0%, #ff2525 74%);
+    @include text-gradient;
+}
+.text-magenta-blue {
+    background: -webkit-linear-gradient(45deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+    @include text-gradient;
+}

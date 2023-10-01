@@ -1,0 +1,934 @@
+.equal-16-9 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: auto !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+}
+.equal-16-9::before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 56.25%;
+}
+.equal-16-9 > * {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.equal-16-10 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: auto !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+}
+.equal-16-10::before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 62.5%;
+}
+.equal-16-10 > * {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.equal-4-3 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: auto !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+}
+.equal-4-3::before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 75%;
+}
+.equal-4-3 > * {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.equal-3-4 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: auto !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+}
+.equal-3-4::before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 133.3333%;
+}
+.equal-3-4 > * {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.equal-2-1 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: auto !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+}
+.equal-2-1::before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 50%;
+}
+.equal-2-1 > * {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.equal-1-2 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: auto !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+}
+.equal-1-2::before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 200%;
+}
+.equal-1-2 > * {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.equal-1-1 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: auto !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+}
+.equal-1-1::before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 100%;
+}
+.equal-1-1 > * {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+@media (min-width: 576px) {
+    .equal-sm-16-9 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-sm-16-9::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 56.25%;
+    }
+    .equal-sm-16-9 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-sm-16-10 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-sm-16-10::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 62.5%;
+    }
+    .equal-sm-16-10 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-sm-4-3 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-sm-4-3::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 75%;
+    }
+    .equal-sm-4-3 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-sm-3-4 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-sm-3-4::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 133.3333%;
+    }
+    .equal-sm-3-4 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-sm-2-1 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-sm-2-1::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 50%;
+    }
+    .equal-sm-2-1 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-sm-1-2 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-sm-1-2::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 200%;
+    }
+    .equal-sm-1-2 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-sm-1-1 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-sm-1-1::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 100%;
+    }
+    .equal-sm-1-1 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+}
+@media (min-width: 768px) {
+    .equal-md-16-9 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-md-16-9::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 56.25%;
+    }
+    .equal-md-16-9 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-md-16-10 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-md-16-10::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 62.5%;
+    }
+    .equal-md-16-10 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-md-4-3 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-md-4-3::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 75%;
+    }
+    .equal-md-4-3 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-md-3-4 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-md-3-4::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 133.3333%;
+    }
+    .equal-md-3-4 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-md-2-1 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-md-2-1::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 50%;
+    }
+    .equal-md-2-1 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-md-1-2 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-md-1-2::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 200%;
+    }
+    .equal-md-1-2 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-md-1-1 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-md-1-1::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 100%;
+    }
+    .equal-md-1-1 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+}
+@media (min-width: 992px) {
+    .equal-lg-16-9 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-lg-16-9::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 56.25%;
+    }
+    .equal-lg-16-9 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-lg-16-10 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-lg-16-10::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 62.5%;
+    }
+    .equal-lg-16-10 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-lg-4-3 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-lg-4-3::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 75%;
+    }
+    .equal-lg-4-3 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-lg-3-4 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-lg-3-4::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 133.3333%;
+    }
+    .equal-lg-3-4 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-lg-2-1 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-lg-2-1::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 50%;
+    }
+    .equal-lg-2-1 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-lg-1-2 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-lg-1-2::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 200%;
+    }
+    .equal-lg-1-2 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-lg-1-1 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-lg-1-1::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 100%;
+    }
+    .equal-lg-1-1 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+}
+@media (min-width: 1200px) {
+    .equal-xl-16-9 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-xl-16-9::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 56.25%;
+    }
+    .equal-xl-16-9 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-xl-16-10 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-xl-16-10::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 62.5%;
+    }
+    .equal-xl-16-10 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-xl-4-3 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-xl-4-3::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 75%;
+    }
+    .equal-xl-4-3 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-xl-3-4 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-xl-3-4::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 133.3333%;
+    }
+    .equal-xl-3-4 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-xl-2-1 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-xl-2-1::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 50%;
+    }
+    .equal-xl-2-1 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-xl-1-2 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-xl-1-2::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 200%;
+    }
+    .equal-xl-1-2 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-xl-1-1 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-xl-1-1::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 100%;
+    }
+    .equal-xl-1-1 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+}
+@media (min-width: 1400px) {
+    .equal-xxl-16-9 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-xxl-16-9::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 56.25%;
+    }
+    .equal-xxl-16-9 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-xxl-16-10 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-xxl-16-10::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 62.5%;
+    }
+    .equal-xxl-16-10 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-xxl-4-3 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-xxl-4-3::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 75%;
+    }
+    .equal-xxl-4-3 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-xxl-3-4 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-xxl-3-4::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 133.3333%;
+    }
+    .equal-xxl-3-4 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-xxl-2-1 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-xxl-2-1::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 50%;
+    }
+    .equal-xxl-2-1 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-xxl-1-2 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-xxl-1-2::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 200%;
+    }
+    .equal-xxl-1-2 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .equal-xxl-1-1 {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: auto !important;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+    }
+    .equal-xxl-1-1::before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 100%;
+    }
+    .equal-xxl-1-1 > * {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+}

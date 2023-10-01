@@ -1,0 +1,53 @@
+.left-sidebar {
+    background-color: $white;
+    border-right: 1px solid $border-color;
+    position: fixed;
+    left: 0;
+    z-index: 111;
+    height: 100%;
+    overflow-y: auto;
+    ul,
+    li {
+        width: 100%;
+    }
+    .nav-link {
+        width: 100% !important;
+        padding: 10px 20px !important;
+        border-radius: $b-rds !important;
+        display: flex;
+        align-items: center;
+        height: 48px;
+        margin-bottom: 10px;
+        &:hover,
+        &:active,
+        &:focus {
+            background-color: $tertiary !important;
+        }
+        i {
+            font-size: 24px;
+            color: $body-color;
+        }
+        span {
+            margin-left: 10px !important;
+            color: $body-color !important;
+        }
+    }
+    .nav-link.active {
+        &:hover,
+        &:active,
+        &:focus {
+            background-color: $primary !important;
+        }
+    }
+    hr {
+        width: calc(100% + 2rem) !important;
+        margin-left: -1rem !important;
+    }
+    .menu-label {
+        text-transform: uppercase;
+        color: $color7;
+        font-size: 12px !important;
+        font-weight: 600;
+        margin-left: 20px;
+    }
+}

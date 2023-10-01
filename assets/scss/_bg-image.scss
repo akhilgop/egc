@@ -1,0 +1,239 @@
+.bg-cover {
+    background-size: cover !important;
+}
+.bg-contain {
+    background-size: contain !important;
+}
+.bg-no-repeat {
+    background-repeat: no-repeat !important;
+}
+.bg-center {
+    background-position: center;
+}
+.bg-top {
+    background-position: top;
+}
+.bg-bottom {
+    background-position: bottom;
+}
+.bg-left {
+    background-position: left;
+}
+.bg-right {
+    background-position: right;
+}
+.bg-x-center {
+    background-position-x: center !important;
+}
+.bg-x-top {
+    background-position-x: top !important;
+}
+.bg-x-bottom {
+    background-position-x: bottom !important;
+}
+.bg-x-left {
+    background-position-x: left !important;
+}
+.bg-x-right {
+    background-position-x: right !important;
+}
+.bg-y-center {
+    background-position-y: center !important;
+}
+.bg-y-top {
+    background-position-y: top !important;
+}
+.bg-y-bottom {
+    background-position-y: bottom !important;
+}
+.bg-y-left {
+    background-position-y: left !important;
+}
+.bg-y-right {
+    background-position-y: right !important;
+}
+.img-animate {
+    transform: scale(1);
+    @include transition;
+    &:hover {
+        transform: scale(1.05);
+        @include transition;
+    }
+}
+.img-hover-reveal {
+    overflow: hidden;
+    background {
+        transition: all 0.3s ease-in-out;
+        opacity: 0;
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    &:hover {
+        color: #fff;
+        .background {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+}
+.img-hover-reveal > * {
+    z-index: 4;
+}
+// --------------------------------------------------------------------Overlay-----------------------------------------------------------------//
+.overlay-primary {
+    position: relative;
+    &::after {
+        @include overlay;
+        background: $primary;
+    }
+    * {
+        z-index: 2;
+        position: relative;
+    }
+}
+.overlay-secondary {
+    position: relative;
+    &::after {
+        @include overlay;
+        background: $secondary;
+    }
+    * {
+        z-index: 2;
+        position: relative;
+    }
+}
+.overlay-tertiary {
+    position: relative;
+    &::after {
+        @include overlay;
+        background: $tertiary;
+    }
+    * {
+        z-index: 2;
+        position: relative;
+    }
+}
+.overlay-black {
+    position: relative;
+    &::after {
+        @include overlay;
+        background: $black;
+    }
+    * {
+        z-index: 2;
+        position: relative;
+    }
+}
+.overlay-white {
+    position: relative;
+    &::after {
+        @include overlay;
+        background: $white;
+    }
+    * {
+        z-index: 2;
+        position: relative;
+    }
+}
+.overlay-danger {
+    position: relative;
+    &::after {
+        @include overlay;
+        background: $danger;
+    }
+    * {
+        z-index: 2;
+        position: relative;
+    }
+}
+.overlay-success {
+    position: relative;
+    &::after {
+        @include overlay;
+        background: $success;
+    }
+    * {
+        z-index: 2;
+        position: relative;
+    }
+}
+.overlay-warning {
+    position: relative;
+    &::after {
+        @include overlay;
+        background: $warning;
+    }
+    * {
+        z-index: 2;
+        position: relative;
+    }
+}
+.overlay-info {
+    position: relative;
+    &::after {
+        @include overlay;
+        background: $info;
+    }
+    * {
+        z-index: 2;
+        position: relative;
+    }
+}
+// --------------------------------------------------------------------Overlay Opacity-------------------------------------------------------------//
+.overlay-opacity-01 {
+    &::after {
+        @include overlay-opacity(0.1);
+    }
+}
+.overlay-opacity-02 {
+    &::after {
+        @include overlay-opacity(0.2);
+    }
+}
+.overlay-opacity-03 {
+    &::after {
+        @include overlay-opacity(0.3);
+    }
+}
+.overlay-opacity-04 {
+    &::after {
+        @include overlay-opacity(0.4);
+    }
+}
+.overlay-opacity-05 {
+    &::after {
+        @include overlay-opacity(0.5);
+    }
+}
+.overlay-opacity-06 {
+    &::after {
+        @include overlay-opacity(0.6);
+    }
+}
+.overlay-opacity-07 {
+    &::after {
+        @include overlay-opacity(0.7);
+    }
+}
+.overlay-opacity-08 {
+    &::after {
+        @include overlay-opacity(0.8);
+    }
+}
+.overlay-opacity-09 {
+    &::after {
+        @include overlay-opacity(0.9);
+    }
+}
+// --------------------------------------------------------------------Dummy Image-----------------------------------------------------------------//
+.dummy-image {
+    @include flex-hv-cntr;
+    width: 100%;
+    height: 100%;
+    &::after {
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 900;
+        content: "\f03e";
+        font-size: 48px;
+    }
+}

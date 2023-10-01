@@ -1,0 +1,256 @@
+@import "movetoTop";
+
+// -----------------------------------------------Today Calendar--------------------------------------
+#calendar table {
+    border-collapse: collapse;
+}
+#calendar {
+    z-index: 1;
+    width: 100%;
+}
+#time_hr {
+    height: 1px;
+    border-bottom: 1px solid red;
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+    left: 72px;
+    display: none;
+}
+
+#clock {
+    font-size: 8px;
+    color: red;
+    top: -3px;
+    left: -28px;
+    position: relative;
+}
+
+#calendar #selectable .ui-selecting {
+    background: rgba(1, 87, 155, 0.5);
+    border: 0;
+}
+#calendar #selectable .ui-selected {
+    background: rgba(1, 87, 155, 1);
+    color: white;
+    border: 0;
+}
+
+#calendar #selectable td:first-child > div.ui-selected {
+    background-color: yellow;
+}
+
+#calendar td,
+#calendar th {
+    font-size: 10px;
+    padding: 6px;
+    border: 1px solid $border-color;
+}
+
+#calendar th {
+    background: #ddd;
+    color: #666;
+    text-align: center;
+    width: 80px;
+}
+
+#calendar td {
+    background: $white;
+    height: 45px;
+    vertical-align: top;
+    padding: 1px;
+}
+
+#calendar td div.booked {
+    // background: rgba(239, 83, 80, 1);
+    color: white;
+    border: 0;
+}
+
+#calendar div.available:hover {
+    opacity: 0.7;
+}
+
+#result {
+    padding: 10px;
+
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+#calendar .notmonth {
+    color: #ccc;
+}
+
+#calendar #month {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#calendar #month a,
+#calendar #month a:hover {
+    text-decoration: none;
+    padding: 0 10px;
+    color: #999;
+}
+
+#calendar .today {
+    background-color: #d7f2ff;
+}
+
+#calendar ul {
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    list-style: none;
+}
+
+#calendar li {
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    text-align: center;
+}
+.time {
+    width: 25%;
+    border-left-color: $white !important;
+    vertical-align: middle !important;
+    text-align: right;
+    padding-right: 20px !important;
+    font-family: $primary-font;
+    color: $body-color;
+    font-size: 14px !important;
+}
+.events-wrap {
+    border-right-color: $white !important;
+}
+.bdr-top-white {
+    border-top-color: $white !important;
+}
+
+// -----------------------------------------------Month Calendar--------------------------------------
+.calendar-wrapper {
+    /*calendar*/
+
+    .calendar-widget {
+        width: 100%;
+        background: #ffffff;
+        border-radius: $b-rds-xs;
+        overflow: hidden;
+        border: 1px solid $border-color;
+        margin-top: 50px;
+    }
+
+    .ui-datepicker {
+        margin: 30px 20px;
+        font-size: 22px;
+    }
+
+    .ui-datepicker a {
+        text-decoration: none;
+        color: $primary;
+    }
+
+    .ui-datepicker table {
+        width: 100%;
+    }
+
+    /*Styling the Header Section*/
+
+    .ui-datepicker-title {
+        font-size: 22px;
+        color: $black;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .ui-datepicker-prev,
+    .ui-datepicker-next {
+        width: 12px;
+        height: 12px;
+        text-indent: 9999px;
+        border-radius: 100%;
+        cursor: pointer;
+        overflow: hidden;
+        margin-top: -12px;
+    }
+
+    .ui-datepicker-prev {
+        float: left;
+        margin-left: 12px;
+    }
+
+    .ui-datepicker-prev:after {
+        transform: rotate(45deg);
+    }
+
+    .ui-datepicker-next {
+        float: right;
+        margin-right: 12px;
+    }
+
+    .ui-datepicker-next:after {
+        transform: rotate(-135deg);
+    }
+
+    .ui-datepicker-prev:after,
+    .ui-datepicker-next:after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 12px;
+        height: 12px;
+        border-left: 3px solid $primary;
+        border-bottom: 3px solid $primary;
+    }
+
+    .ui-datepicker-calendar thead tr th span {
+        display: block;
+        width: 40px;
+        color: #bdc5cb;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 50px;
+    }
+
+    /*Styling the Dates*/
+
+    .ui-state-default {
+        display: block;
+        line-height: 40px;
+        text-align: center;
+        font-size: 14px;
+        width: 40px;
+        background: $white;
+        border: 1px solid $white;
+        border-radius: $b-rds-xs;
+    }
+
+    .ui-datepicker-other-month .ui-state-default {
+        color: #bdc5cb;
+    }
+
+    /*active day*/
+
+    .ui-state-default:hover {
+        background: $tertiary;
+        color: $primary;
+        border-radius: $b-rds-xs;
+        position: relative;
+    }
+
+    .ui-datepicker-calendar .ui-state-active {
+        background: $tertiary;
+        color: $primary;
+        border: 1px solid $primary;
+        border-radius: $b-rds-xs;
+        position: relative;
+        margin: -1px;
+        font-weight: 400 !important;
+    }
+    .ui-datepicker-calendar {
+        margin: auto !important;
+    }
+}

@@ -1,0 +1,199 @@
+// ----------------------------------------------------Common Variables---------------------------------------------//
+$primary: #052760;
+$secondary: #ffda00;
+$tertiary: #edeef6;
+$success: #27ae60;
+$danger: #cf0d1e;
+$warning: #e2b93b;
+$info: #0dcaf0;
+$light: #f8f9fa;
+$dark: #212529;
+$trans: transparent;
+$border-color: #d9e1ee;
+$body-color: #9fa7c4;
+$box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+$transition: all 0.5s ease-out;
+$tab-color: #828282;
+// ----------------------------------------------------Dark Versions----------------------------------------------//
+$primary-dark: darken(
+    $color: $primary,
+    $amount: 10%
+);
+$secondary-dark: darken(
+    $color: $secondary,
+    $amount: 10%
+);
+$tertiary-dark: darken(
+    $color: $tertiary,
+    $amount: 10%
+);
+$danger-dark: darken(
+    $color: $danger,
+    $amount: 10%
+);
+$success-dark: darken(
+    $color: $success,
+    $amount: 10%
+);
+$warning-dark: darken(
+    $color: $warning,
+    $amount: 10%
+);
+$info-dark: darken(
+    $color: $info,
+    $amount: 10%
+);
+$dark-dark: darken(
+    $color: $dark,
+    $amount: 10%
+);
+// ----------------------------------------------------Light Versions---------------------------------------------//
+$primary-light: rgba(
+    $color: $primary,
+    $alpha: 0.1
+);
+$secondary-light: rgba(
+    $color: $secondary,
+    $alpha: 0.1
+);
+$tertiary-light: rgba(
+    $color: $tertiary,
+    $alpha: 0.1
+);
+$danger-light: rgba(
+    $color: $danger,
+    $alpha: 0.1
+);
+$success-light: rgba(
+    $color: $success,
+    $alpha: 0.1
+);
+$warning-light: rgba(
+    $color: $warning,
+    $alpha: 0.1
+);
+$info-light: rgba(
+    $color: $info,
+    $alpha: 0.1
+);
+// ----------------------------------------------------Other Colors----------------------------------------------//
+$color1: #bdbdbd;
+$color2: #3555fc;
+$color3: #d9d9d9;
+$color4: #c4c4c4;
+$color5: #e9e9e9;
+$color6: #e8e8e8;
+$color7: #797f9d;
+$color8: #f2994a;
+$color9: #aaaaaa;
+$color10: #438afe;
+$blue: #090979;
+$red: #cf0d1e;
+$yellow: #f2c200;
+$green: #5cb85c;
+// ----------------------------------------------------Social Media Shades---------------------------------------//
+$google: #dc4d23;
+$facebook: #3d5da5;
+$twitter: #1c99e6;
+$instagram: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+$linkedin: #2362aa;
+$youtube: #f10002;
+$pinterest: #e10015;
+$behance: #0053f2;
+// ----------------------------------------------------White Shades----------------------------------------------//
+$white: #fff;
+$white9: #f9f9f9;
+$white8: #f8f8f8;
+$white7: #f7f7f7;
+$white6: #f6f6f6;
+$white5: #f5f5f5;
+$white4: #f4f4f4;
+$white3: #f3f3f3;
+$white2: #f2f2f2;
+$white1: #f1f1f1;
+// ----------------------------------------------------Black Shades----------------------------------------------//
+$black: #000;
+$black1: #111;
+$black2: #222;
+$black3: #333;
+$black4: #444;
+$black5: #555;
+$black6: #666;
+$black7: #777;
+$black8: #888;
+$black9: #999;
+// ----------------------------------------------------Grey Shades----------------------------------------------//
+$gray1: #707070;
+$gray2: #636c72;
+$gray3: #7d7d7d;
+$gray5: #f7f7f9;
+$grey4: #f9f9f9;
+// --------------------------------------------------------Height-----------------------------------------------//
+$height-xxxs: 10px;
+$height-xxs: 20px;
+$height-xs: 30px;
+$height-sm: 40px;
+$height-default: 50px;
+$height-lg: 60px;
+$height-xl: 80px;
+$height-xxl: 100px;
+$height-xxxl: 150px;
+// ----------------------------------------------------Text-----------------------------------------------------//
+$h1: 60px;
+$h2: 48px;
+$h3: 28px;
+$h4: 24px;
+$h5: 20px;
+$h6: 18px;
+$p: 16px;
+$fs-8: 8px;
+$fs-10: 10px;
+$fs-12: 12px;
+$fs-14: 14px;
+$fs-16: 16px;
+$fs-18: 18px;
+$fs-20: 20px;
+$fs-22: 22px;
+$fs-24: 24px;
+$fs-30: 30px;
+$fs-32: 32px;
+$fs-36: 36px;
+$fs-40: 40px;
+$fs-48: 48px;
+$fs-56: 56px;
+$fs-64: 64px;
+$fs-72: 72px;
+$fs-80: 80px;
+$fs-88: 88px;
+$fs-90: 90px;
+$fs-96: 96px;
+$fs-100: 100px;
+$fs-110: 110px;
+// ----------------------------------------------------Line Height-----------------------------------------------//
+$line-height-sm: 1;
+$line-height-sm: 1.2;
+$line-height: 1.5;
+$line-height-lg: 1.8;
+$line-height-xl: 2;
+// -------------------------------------------------------Font--------------------------------------------------//
+$primary-font: "Inter", sans-serif;
+// ----------------------------------------------------Padding--------------------------------------------------//
+$pad-sm: 10px;
+$pad-default: 20px;
+$pad-md: 30px;
+$pad-lg: 40px;
+$pad-xl: 50px;
+$pad-xxl: 60px;
+$btn-pad: 0 20px;
+$btn-pad-md: 5px 15px;
+// ------------------------------------------------------Border Radius------------------------------------------//
+$b-rds-xxs: 7px;
+$b-rds-xs: 10px;
+$b-rds: 15px;
+$b-rds-md: 20px;
+$b-rds-lg: 30px;
+$b-rds-xl: 40px;
+$b-rds-xxl: 50px;
+$b-rds-xxxl: 60px;
+$form-rds: $b-rds-xs;
+$form-rds-lg: $b-rds;

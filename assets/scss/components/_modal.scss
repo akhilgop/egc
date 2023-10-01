@@ -1,0 +1,39 @@
+.modal-header {
+    background-color: $secondary;
+    border-radius: 0;
+    padding: 40px 30px;
+    background: url("https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+    @extend .overlay-black;
+    &::after {
+        opacity: 0.8 !important;
+    }
+}
+.modal-content {
+    border-radius: 0;
+}
+.modal-title {
+    color: $primary;
+}
+.btn-close {
+    @include round(20px);
+    background-color: $primary;
+    opacity: 1;
+}
+.modal-body {
+    padding: 30px 30px 0 30px !important;
+}
+.modal-footer {
+    border: 0 !important;
+    padding: 30px !important;
+}
+@media screen and (max-width: 767px) {
+    .modal-header {
+        padding: 40px 20px !important;
+    }
+    .modal-body {
+        padding: 20px 20px 0 20px !important;
+    }
+    .modal-footer {
+        padding: 20px !important;
+    }
+}

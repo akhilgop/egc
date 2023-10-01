@@ -1,0 +1,62 @@
+// ----------------------------------------------------Nav Pills-----------------------------------------------------//
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background: $primary;
+    color: $white;
+}
+.nav-pills {
+    .nav-link {
+        color: $primary;
+        background: $white;
+    }
+}
+.tab-content {
+    background-color: $white;
+    padding: $pad-md;
+    border-radius: $form-rds;
+    width: 100%;
+}
+// --------------------------------------------------------------------Nav Tabs-----------------------------------------------------------------//
+
+.nav-tabs {
+    border: none !important;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    border-color: $trans !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+.nav-tabs {
+    .nav-link:hover::after {
+        display: none;
+    }
+    .nav-link {
+        border-top-left-radius: $form-rds-lg;
+        border-top-right-radius: $form-rds-lg;
+        border-bottom-left-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+        border-color: transparent !important;
+        color: $primary;
+    }
+}
+.tab-content {
+    border-top-left-radius: 0 !important;
+    border-radius: $form-rds-lg;
+    margin-top: -1px;
+}
+.nav-pills {
+    .nav-link {
+        border-radius: 0 !important;
+    }
+    .nav-item:first-child {
+        border-top-left-radius: $form-rds;
+        border-bottom-left-radius: $form-rds;
+        overflow: hidden;
+    }
+    .nav-item:last-child {
+        border-top-right-radius: $form-rds;
+        border-bottom-right-radius: $form-rds;
+        overflow: hidden;
+    }
+}
