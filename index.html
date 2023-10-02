@@ -125,50 +125,36 @@
             <div class="col p-0 right-content">
                 <nav class="navbar navbar-expand-lg py-3 main-nav">
                     <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="d-flex gap-3 justify-content-end align-items-center d-lg-none">
-                            <a href="" class="notification button position-relative">
-                                <div class="unread"></div>
-                                <i class="ri-notification-3-fill fs-24 text-color-9"></i>
-                            </a>
-                            <a href="" class="profile-section d-flex align-items-center">
-                                <div class="circle-sm bg-color-10 text-white circle-img profile-avatar">
-                                    <!-- <img src="../assets/images/user-1.jpg"> -->
-                                </div>
-                                <label class="text-body ms-2">Steven Hill</label>
-                            </a>
-                            <a href="" class="ms-3"><i class="ri-menu-line fs-18"></i></a>
-                        </div>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="w-100">
                             <div class="row g-0 w-100 justify-content-lg-end">
                                 <!-- <div class="col-md-5"></div> -->
                                 <div class="col-xxl-7">
-                                    <div class="row g-3 gy-xxl-0 mt-md-3 mt-lg-0">
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="position-relative mt-4 mt-md-0">
-                                                <select class="form-select select2 js" aria-label="Default select
-                                                example">
-                                                    <option>All
-                                                    </option>
-                                                    <option value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
-                                                </select>
+                                    <div class="row g-3">
+                                        <div class="col-lg-8 order-2 order-lg-1">
+                                            <div class="row g-3 gy-xxl-0">
+                                                <div class="col-6 col-md-6">
+                                                    <div class="position-relative ">
+                                                        <select class="form-select select2 js" aria-label="Default select
+                                                        example">
+                                                            <option>All
+                                                            </option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6 col-md-6">
+                                                    <div class="position-relative">
+                                                        <input class="form-control position-relative ps-5" type="search"
+                                                            placeholder="Search" aria-label="Search">
+                                                        <i class="ri-search-line search-icon"></i>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="position-relative">
-                                                <input class="form-control position-relative ps-5" type="search"
-                                                    placeholder="Search" aria-label="Search">
-                                                <i class="ri-search-line search-icon"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6 d-none d-lg-block">
-                                            <div class="d-lg-flex gap-3 justify-content-end align-items-center d-none">
+                                        <div class="col-12 col-lg-4 col-md-12 order-1 order-lg-2">
+                                            <div class="d-flex gap-3 justify-content-end align-items-center">
                                                 <a href="" class="notification button position-relative">
                                                     <div class="unread"></div>
                                                     <i class="ri-notification-3-fill fs-24 text-color-9"></i>
@@ -622,29 +608,6 @@
     <script src='assets/js/select2-min.js'></script>
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/selectbox.js"></script>
-    <script>
-
-        $(select02).select2({
-            data: [{
-                id: 0,
-                text: "test01"
-            }, {
-                id: 1,
-                text: "test02"
-            }, {
-                id: 2,
-                text: "test03"
-            }, {
-                id: 3,
-                text: "test04"
-            }, {
-                id: 4,
-                text: "test05"
-            }],
-            placeholder: "<i class='fa fa-sitemap'></i>Branch name",
-            escapeMarkup: function (markup) { return markup; }
-        });
-    </script>
 </body>
 
 </html>

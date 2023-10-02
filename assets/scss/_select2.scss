@@ -81,6 +81,9 @@
 .select2-results__option[aria-selected] {
     cursor: pointer;
 }
+.select2-container--open {
+    width: inherit !important;
+}
 .select2-container--open .select2-dropdown {
     left: 0;
 }

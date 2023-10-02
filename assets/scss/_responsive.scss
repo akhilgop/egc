@@ -22,9 +22,7 @@
     div.list-toggle {
         margin-left: 10px !important;
     }
-    .content-wrapper {
-        margin-top: 80px !important;
-    }
+
     .indications {
         flex-wrap: wrap;
         justify-content: flex-start !important;
@@ -113,9 +111,7 @@
             }
         }
     }
-    .content-wrapper {
-        margin-top: 80px !important;
-    }
+
     .indications {
         flex-wrap: wrap;
         justify-content: flex-start !important;
@@ -204,9 +200,7 @@
             }
         }
     }
-    .content-wrapper {
-        margin-top: 80px !important;
-    }
+
     .indications {
         flex-wrap: wrap;
         justify-content: flex-start !important;
@@ -508,5 +502,10 @@
 @media screen and (min-width: 992px) {
     .logo {
         padding-left: 20px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .content-wrapper {
+        margin-top: 121px !important;
     }
 }

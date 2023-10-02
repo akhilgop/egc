@@ -22,9 +22,6 @@
   div.list-toggle {
     margin-left: 10px !important;
   }
-  .content-wrapper {
-    margin-top: 80px !important;
-  }
   .indications {
     flex-wrap: wrap;
     justify-content: flex-start !important;
@@ -104,9 +101,6 @@
     width: 1.2rem !important;
     height: 1.2rem !important;
   }
-  .content-wrapper {
-    margin-top: 80px !important;
-  }
   .indications {
     flex-wrap: wrap;
     justify-content: flex-start !important;
@@ -185,9 +179,6 @@
   .main-nav .navbar-toggler .navbar-toggler-icon {
     width: 1.2rem !important;
     height: 1.2rem !important;
-  }
-  .content-wrapper {
-    margin-top: 80px !important;
   }
   .indications {
     flex-wrap: wrap;
@@ -468,6 +459,11 @@
     padding-left: 20px;
   }
 }
+@media screen and (max-width: 991px) {
+  .content-wrapper {
+    margin-top: 121px !important;
+  }
+}
 .select2-container {
   box-sizing: border-box;
   display: block;
@@ -566,6 +562,10 @@
 
 .select2-results__option[aria-selected] {
   cursor: pointer;
+}
+
+.select2-container--open {
+  width: inherit !important;
 }
 
 .select2-container--open .select2-dropdown {
